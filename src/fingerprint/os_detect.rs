@@ -1,5 +1,4 @@
-use std::net::IpAddr;
-use std::str::FromStr;
+use tokio::io::AsyncReadExt;
 
 /// Detect OS from a banner string (synchronous).
 pub fn detect_os_from_banner(banner: &str) -> Option<String> {
