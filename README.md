@@ -92,6 +92,14 @@ ferrothorn --target <IP or CIDR> --ports <range or list> [OPTIONS]
 
 ```bash
 # Scan common ports on a single host
+
+![Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit-blue?style=for-the-badge)
+
+
+## 🚀 Live Demo
+
+**[View Demo](https://mayank-dev-15.github.io/ferrothorn-demo)** — hosted on GitHub Pages
+
 ferrothorn --target 192.168.1.1 --ports 1-1024
 
 # Scan specific ports with OS detection, output as JSON
